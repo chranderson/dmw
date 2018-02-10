@@ -1,0 +1,66 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-106f104e339c81ae0943.js",
+      "component---src-pages-index-js-106f104e339c81ae0943.js.map"
+    ],
+    "path---events": [
+      "path---events-a0e39f21c11f6a62c5ab.js",
+      "path---events-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-0ff189338151a7997877.js",
+      "component---src-layouts-index-js-0ff189338151a7997877.js.map"
+    ],
+    "path---tickets": [
+      "path---tickets-a0e39f21c11f6a62c5ab.js",
+      "path---tickets-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-a874e933dc7a692e34fa.js",
+      "commons-a874e933dc7a692e34fa.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-e1e0e2108b560bd79913.js",
+      "build-js-styles.css",
+      "app-e1e0e2108b560bd79913.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-pages-events-js": [
+      "component---src-pages-events-js-a51a205cedfa2bd1c03f.js",
+      "component---src-pages-events-js-a51a205cedfa2bd1c03f.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-about-js": [
+      "component---src-pages-about-js-1bc729297b1996282038.js",
+      "component---src-pages-about-js-1bc729297b1996282038.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-tickets-js": [
+      "component---src-pages-tickets-js-3a61bf697d7b060e6a72.js",
+      "component---src-pages-tickets-js-3a61bf697d7b060e6a72.js.map"
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+webpackJsonp([0xfca11365d841],{225:function(e,t,l){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var a=l(2),n=u(a),r=l(51),c=u(r),f=function(){return n.default.createElement("div",null,n.default.createElement("h1",null,"Tickets"),n.default.createElement("p",null,"get your tickets ",n.default.createElement("a",{href:"#"},"Here")),n.default.createElement(c.default,{to:"/"},"Go back to the homepage"))};t.default=f,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-tickets-js-3a61bf697d7b060e6a72.js.map
