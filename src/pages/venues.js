@@ -2,12 +2,12 @@ import React from 'react'
 import Container from '../components/Container'
 import Link from 'gatsby-link'
 
-const Tickets = ({transition}) => (
+const Venues = ({transition}) => (
   <Container style={transition && transition.style}>
-    <h1>Tickets</h1>
-    <p>get your tickets <a href="#">Here</a></p>
+    <h1>Venues</h1>
+    <p>list of venues</p>
     <Link to="/">Go back to the homepage</Link>
   </Container>
 )
 
-export default Tickets
+export default Venues

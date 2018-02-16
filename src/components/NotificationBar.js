@@ -4,12 +4,14 @@ import {orange, white} from '../config/colors'
 
 const NotificationBar = styled.div`
   font-family: sans-serif;
-  height: 40px;
+  font-size: 0.75rem;
+  height: 1.5rem;
   background-color: ${orange};
   display: flex;
   color: ${white};
   align-items: center;
-  justify-content: center;
+  padding: 0 1rem;
+  ${'' /* justify-content: center; */}
   position: fixed;
   top: 0;
   width: 100%;

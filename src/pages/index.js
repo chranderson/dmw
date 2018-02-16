@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Container from '../components/Container'
 
 import site from '../config/site'
-
-const IndexPage = () => (
-  <div>
-    <h1>Denver Modernism Week</h1>
-    <p>{site.description}</p>
+import Splash from '../components/Splash'
+const IndexPage = ({ transition }) => (
+  <div style={transition && transition.style}>
+    <Splash />
   </div>
 )
 

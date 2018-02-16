@@ -1,10 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import {teal} from '../../config/colors'
+import StyledP from '../StyledP'
 
 const Card = styled.div`
   border-top: 1px solid ${teal};
-  padding: 1rem ;
+  padding: 3rem 1rem;
 
   > div {
     display: block;
@@ -12,7 +13,9 @@ const Card = styled.div`
 `
 
 const StyledH3 = styled.h3`
-  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.33;
 `
 
 const SubTitle = styled.div`
@@ -27,7 +30,7 @@ const EventCard = ({ date, description, start, subTitle, title, venue }) => (
   <Card>
     <StyledH3>{title}</StyledH3>
     <SubTitle>{subTitle}</SubTitle>
-    <p>{description}</p>
+    <StyledP>{description}</StyledP>
     <div>start: {start}</div>
     <div>date: {date}</div>
     <div>venue: {venue}</div>

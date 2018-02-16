@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/dmw",
   siteMetadata: {
     title: 'Denver Modernism Week',
   },

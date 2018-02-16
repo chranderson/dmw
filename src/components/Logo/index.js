@@ -10,10 +10,10 @@ const StyledSvg = styled.svg.attrs({
   alt: 'Denver Modernism Week Logo',
   focusable: 'false',
   role: 'presentation',
-  viewBox: '0 0 150 50'
+  viewBox: '0 0 150 50',
 })`
+  height: 70px;
   user-select: none;
-  width: 150px;
 
   #blue {
     fill: #008ca8;
