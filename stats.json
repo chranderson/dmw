@@ -1,66 +1,82 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-106f104e339c81ae0943.js",
-      "component---src-pages-index-js-106f104e339c81ae0943.js.map"
-    ],
-    "path---events": [
-      "path---events-a0e39f21c11f6a62c5ab.js",
-      "path---events-a0e39f21c11f6a62c5ab.js.map"
+      "component---src-pages-index-js-2577e8238b2e7e8e7e76.js",
+      "component---src-pages-index-js-2577e8238b2e7e8e7e76.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-1463a8ba5ec5804299cd.js",
+      "component---src-pages-contact-js-1463a8ba5ec5804299cd.js.map"
+    ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-0ff189338151a7997877.js",
-      "component---src-layouts-index-js-0ff189338151a7997877.js.map"
+      "component---src-layouts-index-js-669520dc4b3666915fe9.js",
+      "component---src-layouts-index-js-669520dc4b3666915fe9.js.map"
     ],
     "path---tickets": [
       "path---tickets-a0e39f21c11f6a62c5ab.js",
       "path---tickets-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-venues-js": [
+      "component---src-pages-venues-js-2bd2b786a52adab10c62.js",
+      "component---src-pages-venues-js-2bd2b786a52adab10c62.js.map"
+    ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---venues": [
+      "path---venues-a0e39f21c11f6a62c5ab.js",
+      "path---venues-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-pages-404-js": [
-      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
-      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+      "component---src-pages-404-js-00f30a15fec6d34ced08.js",
+      "component---src-pages-404-js-00f30a15fec6d34ced08.js.map"
     ],
     "commons": [
-      "commons-a874e933dc7a692e34fa.js",
-      "commons-a874e933dc7a692e34fa.js.map"
+      "commons-6df478e252ea3e6a79bf.js",
+      "commons-6df478e252ea3e6a79bf.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---presentations": [
+      "path---presentations-a0e39f21c11f6a62c5ab.js",
+      "path---presentations-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "app": [
-      "app-e1e0e2108b560bd79913.js",
+      "app-a32936a2c1fae2bd9159.js",
       "build-js-styles.css",
-      "app-e1e0e2108b560bd79913.js.map",
+      "app-a32936a2c1fae2bd9159.js.map",
       "build-js-styles.css.map"
     ],
-    "component---src-pages-events-js": [
-      "component---src-pages-events-js-a51a205cedfa2bd1c03f.js",
-      "component---src-pages-events-js-a51a205cedfa2bd1c03f.js.map"
+    "component---src-pages-presentations-js": [
+      "component---src-pages-presentations-js-dea22cb89b3a96b63e1e.js",
+      "component---src-pages-presentations-js-dea22cb89b3a96b63e1e.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-about-js": [
-      "component---src-pages-about-js-1bc729297b1996282038.js",
-      "component---src-pages-about-js-1bc729297b1996282038.js.map"
+      "component---src-pages-about-js-04ed5d50f5ab78465edc.js",
+      "component---src-pages-about-js-04ed5d50f5ab78465edc.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
       "path---about-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-tickets-js": [
-      "component---src-pages-tickets-js-3a61bf697d7b060e6a72.js",
-      "component---src-pages-tickets-js-3a61bf697d7b060e6a72.js.map"
+      "component---src-pages-tickets-js-9b1abe04e8091621dfb4.js",
+      "component---src-pages-tickets-js-9b1abe04e8091621dfb4.js.map"
     ]
   }
 }
