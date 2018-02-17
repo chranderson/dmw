@@ -13,7 +13,7 @@ const meta = [
   { name: 'keywords', content: site.keywords },
 ]
 
-const TemplateWrapper = ({ children }) => console.log('children: ', children()) || (
+const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet meta={meta} title={site.title} />
     <Header />

@@ -1,30 +1,6 @@
 import React from 'react'
-import styled from 'styled-components'
+import {LogoBox, StyledSvg} from './styles'
 
-const LogoBox = styled.div`
-  display: inline-flex;
-  align-items: center;
-`
-
-const StyledSvg = styled.svg.attrs({
-  alt: 'Denver Modernism Week Logo',
-  focusable: 'false',
-  role: 'presentation',
-  viewBox: '0 0 150 50',
-})`
-  height: 70px;
-  user-select: none;
-
-  #blue {
-    fill: #008ca8;
-  }
-  #green {
-    fill: #f58220;
-  }
-  #red {
-    fill: #8d8733;
-  }
-`
 
 const Logo = ({...rest}) => (
   <LogoBox {...rest}>

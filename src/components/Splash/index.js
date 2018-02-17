@@ -1,7 +1,5 @@
 import React from 'react'
-// import Link from 'gatsby-link'
 import styled from 'styled-components'
-// import {darken} from 'polished'
 import {green, orange, teal} from '../../config/colors'
 import rippImg from './ripp.png'
 import dmwImg from './dmw.svg'
@@ -10,12 +8,7 @@ import Container from '../Container'
 
 import StyledP from '../StyledP'
 const SplashBg = styled.section`
-  ${'' /* border: 1px solid ${teal}; */}
-  ${'' /* background-image: url(${dmwImg});
-  background-position: bottom;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 400px; */}
+
 `
 
 const SplashDate = styled.div`
