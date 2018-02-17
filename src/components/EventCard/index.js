@@ -1,11 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
 import {teal} from '../../config/colors'
+import venues from '../../content/venues'
 import StyledP from '../StyledP'
+
+
+import mediaQuery from '../../config/mediaQueries'
 
 const Card = styled.div`
   border-top: 1px solid ${teal};
-  padding: 3rem 1rem;
+  padding: 2rem 1rem;
+
+  @media (max-width: ${mediaQuery.small.max}px) {
+      padding: 2rem 1rem;
+  }
 
   > div {
     display: block;
@@ -25,15 +33,21 @@ const SubTitle = styled.div`
   padding-bottom: 0.5rem;
 `
 
+const Detail = styled.div`
+  font-family: sans-serif;
+`
 
-const EventCard = ({ date, description, start, subTitle, title, venue }) => (
+
+const EventCard = ({ date, description, opens, start, subTitle, title, venue }) => (
   <Card>
     <StyledH3>{title}</StyledH3>
     <SubTitle>{subTitle}</SubTitle>
     <StyledP>{description}</StyledP>
-    <div>start: {start}</div>
-    <div>date: {date}</div>
-    <div>venue: {venue}</div>
+    { opens ? <div>doors: <b>{opens}</b></div> : null }
+    <Detail>starts: <b>{start}</b></Detail>
+    <Detail>date: <b>{date}</b></Detail>
+    <Detail>venue: <b>{venues[venue].name}</b></Detail>
+
   </Card>
 )
 

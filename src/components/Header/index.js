@@ -13,16 +13,13 @@ import {boxShadow} from '../../config/mixins'
 const HeaderWrap = styled.div`
   background-color: rgba(255,255,255, 0.975);
   box-sizing: border-box;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: flex-end;
-  justify-content: flex-start;
+
   position: absolute;
   right: 0;
   left: 0;
   top: 0;
   z-index: 2;
-  padding: 1rem 4rem 0;
+  padding: 1rem 0 0 0;
   box-shadow: ${boxShadow.bottom};
 
   transition: transform 450ms ease;
@@ -30,11 +27,11 @@ const HeaderWrap = styled.div`
   transform: translateY(${({hide}) => !hide ? '0' : '-100%'});
 
   @media (max-width: ${mediaQuery.small.max}px) {
-    flex-direction: column;
-    align-items: center;
     padding: 1rem 1rem 0;
     position: fixed;
     transform: translateY(0);
+    ${'' /* flex-direction: column;
+    align-items: center; */}
   }
 `
 
@@ -105,21 +102,38 @@ const StyledLink = styled(Link)`
   }
 `
 
+const StyledContainer = Container.extend`
+  max-width: 1000px;
+  padding: 0 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+
+  @media (max-width: ${mediaQuery.small.max}px) {
+    transform: translateY(0);
+    flex-direction: column;
+    align-items: center;
+  }
+
+`
+
 const Header = () => (
 
     <HeaderWrap role="navigation">
-      {/* <Container> */}
+      <StyledContainer>
         <StyledLink to={'/'}>
           <Logo />
         </StyledLink>
         <Nav>
+          <li><Link to="/tickets/">Tickets</Link></li>
           <li><Link to="/presentations/">Presentations</Link></li>
-          {/* <li><Link to="/tickets/">Tickets</Link></li> */}
+
           {/* <li><Link to="/venues/">Venues</Link></li> */}
           {/* <li><Link to="/about/">About</Link></li> */}
           <li><Link to="/contact/">Contact</Link></li>
         </Nav>
-      {/* </Container> */}
+      </StyledContainer>
     </HeaderWrap>
 )
 

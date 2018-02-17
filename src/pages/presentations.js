@@ -5,6 +5,7 @@ import EventCard from '../components/EventCard'
 import UL from '../components/UL'
 import styled from 'styled-components'
 import {teal} from '../config/colors'
+import mediaQuery from '../config/mediaQueries'
 const dates = {
   Saturday: '08-25-2018',
   Sunday: '08-26-2018'
@@ -19,10 +20,18 @@ const DayHeader = styled.div`
   justify-content: space-between;
   padding: 1rem 0;
 
+  @media (max-width: ${mediaQuery.small.max}px) {
+      flex-direction: column;
+  }
+
   h2 {
     font-weight: inherit;
     font-size: 2.6rem;
     margin: 0;
+
+    @media (max-width: ${mediaQuery.small.max}px) {
+      width: 100%;
+    }
   }
 
   > * {
@@ -31,6 +40,7 @@ const DayHeader = styled.div`
   }
 
   > div {
+    flex: 1;
     line-height: 1.3;
   }
 `
